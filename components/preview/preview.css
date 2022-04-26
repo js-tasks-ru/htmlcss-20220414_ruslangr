@@ -1,4 +1,13 @@
 .preview{
-  background-color: #F9FAFC;
-  height: 400px;
+  background-color: #f9fafc;
+  /*height: 400px;*/
+  padding: 48px 0;
+}
+
+/*.preview__inner{
+
+}*/
+
+.preview__inner-card{
+  display: inline-block;
 }
