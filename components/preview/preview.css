@@ -3,11 +3,13 @@
   /*height: 400px;*/
   padding: 48px 0;
 }
-
-/*.preview__inner{
-
-}*/
-
-.preview__inner-card{
-  display: inline-block;
+.preview__inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
+
+/*.preview__inner-card{
+  display: inline-block;
+}*/
