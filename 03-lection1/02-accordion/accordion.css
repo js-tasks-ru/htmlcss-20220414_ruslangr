@@ -62,5 +62,7 @@ details.accordion_item[open] > .accordion__summary::after{
   border-top: none;
 }
 
+.accordion > details:last-child {
+  margin-bottom: 0;
+}
 
-/*transform: rotate(-180deg);*/
