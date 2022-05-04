@@ -25,30 +25,33 @@
   /*display: flex;*/
   /*flex-grow: 2;*/
   /*flex-direction: column;*/
-  width: 100%;
+  /*width: 100%;*/
+  flex-grow: 1;
 }
 
 .skeleton__bottom{
   margin-top: 16px;
 }
-.c-line {
+.skeleton__line {
   box-sizing: border-box;
   height: 1.25rem;
   background-color: var(--grey-3);
   width: 100%;
+  margin: 8px;
 }
 
-.c-line_short{
+.skeleton__line_short{
   width: 40%;
 }
-.c-line_middle{
+.skeleton__line_middle{
   width: 60%;
 }
 
-.c-line_circle {
+.skeleton__line_circle {
   border-radius: 50%;
   width: 4rem;
   height: 4rem;
+  margin: 0;
 }
 
 .skeleton__c-line {
