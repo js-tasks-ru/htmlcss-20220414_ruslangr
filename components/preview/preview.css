@@ -1,15 +1,16 @@
 .preview{
   background-color: #F9FAFC;
-  /*height: 400px;*/
   grid-area: main;
 }
-
-.preview_m_36{
+.preview__inner{
   padding: 36px;
+  display: flex;
+  /*height: 100%;*/
 }
 
 .preview__container{
-  height: 100%;
+  flex-grow: 1;
+  /*height: 100%;*/
   background-color: #F9FAFC;
   display: grid;
   grid-template-columns: auto 1fr;
