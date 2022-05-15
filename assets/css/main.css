@@ -4,6 +4,7 @@
 @import "../../components/header/header.css";
 @import "../../components/preview/preview.css";
 @import "../../components/footer/footer.css";
+@import "../../components/card/card.css";
 
 
 @import "./normalize.css";
@@ -25,6 +26,10 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+}
+
+html, body {
+    height: 100%;
 }
 
 * {
