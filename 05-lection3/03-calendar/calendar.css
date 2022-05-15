@@ -60,12 +60,12 @@
   grid-column-start: var(--start-from);
 }
 
-.calendar__selected-from, .calendar__selected-to{
+.calendar__item_selected-from, .calendar__item_selected-to{
   background: #4263EB;
   color: var(--white);
 }
 
-.calendar__selected-range{
+.calendar__item_selected-range{
   background: rgba(160, 177, 245 , 0.2);
 }
 
