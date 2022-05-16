@@ -1,4 +1,25 @@
 .preview{
-  background-color: #F9FAFC;
-  height: 400px;
+  background-color: #f9fafc;
+  /*height: 400px;*/
+  padding: 48px 0;
 }
+.preview__inner{
+  display: flex;
+  flex-wrap: wrap;
+  /*margin-top: -30px;*/
+  /*margin-left: -30px;*/
+  margin: -15px;
+}
+.preview__item{
+  margin: 15px;
+  width: calc(33.3333% - 30px);
+}
+
+/*.preview__card{
+  margin-left: 30px;
+  margin-top: 30px;
+}*/
+
+/*.preview__inner-card{
+  display: inline-block;
+}*/
