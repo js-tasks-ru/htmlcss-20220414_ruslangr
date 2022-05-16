@@ -7,6 +7,19 @@
   display: flex;
   /*height: 100%;*/
 }
+.preview__item{
+  margin: 15px;
+  width: calc(33.3333% - 30px);
+}
+
+/*.preview__card{
+  margin-left: 30px;
+  margin-top: 30px;
+}*/
+
+/*.preview__inner-card{
+  display: inline-block;
+}*/
 
 .preview__container{
   flex-grow: 1;
