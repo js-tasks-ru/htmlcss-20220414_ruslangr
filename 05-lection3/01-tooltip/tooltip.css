@@ -1,14 +1,10 @@
-body {
-  margin: 80px;
-  text-align: center;
-}
 
 .tooltip {
   display: inline-block;
   position: relative;
 }
 
-.tooltip_trigger {
+.tooltip__trigger {
   cursor: pointer;
 }
 
@@ -47,7 +43,7 @@ body {
   transform: translatex(-50%);
 }
 
-.tooltip_trigger:hover ~ .toltip__bubble {
+.tooltip__trigger:hover ~ .toltip__bubble {
   display: inline-block;
   visibility:visible;
   opacity: 1;
