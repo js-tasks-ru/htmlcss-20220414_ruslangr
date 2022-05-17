@@ -1,0 +1,28 @@
+.menu {
+  max-width: 229px;
+}
+
+.menu__title{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 0;
+}
+
+.menu__link{
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--black);
+}
+
+.menu__link_selected, .menu__link:active, .menu__link:hover{
+  color: #D84910;
+}
