@@ -1,0 +1,9 @@
+.img-block{
+  height: 300px;
+  width: 300px;
+}
+
+.img-block__img{
+  width: 100%;
+  height: 100%;
+}
