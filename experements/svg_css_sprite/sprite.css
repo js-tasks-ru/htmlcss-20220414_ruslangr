@@ -1,0 +1,83 @@
+.square{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+
+}
+.square-sprite{
+  background-image: url('icon-scc-sprite.svg#close');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-position: 0 100%;*/
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.square.square_after{
+  position: relative;
+}
+
+.square_after:after{
+  content: "";
+  position: absolute;
+  /*width: 50px;*/
+  /*height: 50px;*/
+  background-image: url('icon-scc-sprite.svg#close');
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #F03D3E;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+.square-img{
+  background-image: url('close.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-position: 0 100%;*/
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+
+
+.sprite__img{
+  /*display: block;*/
+  width: 250px;
+  height: 250px;
+  color: #F03D3E;
+  fill: #F03D3E;
+  /* Calculator: https://codepen.io/sosuke/pen/Pjoqqp*/
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+.sprite__img .sprite g path {
+  fill: #2342C0;
+  color: #2342C0;
+}
+
+.sprite{
+  color: #F03D3E;
+  fill: #F03D3E;
+}
+
+.sprite-css__icon{
+  color: #F03D3E;
+  fill: green;
+}
+
+
+.img{
+  width: 50px;
+  height: 50px;
+  color: #F03D3E;
+  fill: #F03D3E;
+  /*filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);*/
+}
+
+.img:hover{
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+
+
