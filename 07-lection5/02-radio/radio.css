@@ -64,6 +64,10 @@
 .radio_disabled{
   pointer-events: none;
 }
+.radio_disabled .radio__input{
+  display: none;
+}
+
 .radio_disabled .radio__state .radio__control{
   background: var(--grey-2);
 }
