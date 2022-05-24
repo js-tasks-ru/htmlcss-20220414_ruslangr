@@ -5,7 +5,55 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
-    <body>
+    <body style="margin: 100px; display: flex; flex-flow: column; gap: 30px">
+
+    <div>
+        <label class="radio">
+            <input type="radio" class="radio__input" name="radio-name">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__decor"></div>
+                </div>
+                <div class="radio__title">Default</div>
+            </div>
+        </label>
+    </div>
+
+    <div>
+        <label class="radio">
+            <input type="radio" class="radio__input" name="radio-name">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__decor"></div>
+                </div>
+                <div class="radio__title">Default</div>
+            </div>
+        </label>
+    </div>
+
+    <div>
+        <label class="radio radio_disabled">
+            <input type="radio" class="radio__input" name="radio-name">
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__decor"></div>
+                </div>
+                <div class="radio__title">Disabled</div>
+            </div>
+        </label>
+    </div>
+
+    <div>
+        <label class="radio">
+            <input type="radio" class="radio__input" name="radio-other-name" checked>
+            <div class="radio__state">
+                <div class="radio__control">
+                    <div class="radio__decor"></div>
+                </div>
+                <div class="radio__title">Selected</div>
+            </div>
+        </label>
+    </div>
 
     </body>
 </html>
